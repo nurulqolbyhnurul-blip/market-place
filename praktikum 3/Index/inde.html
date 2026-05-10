@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <title>QAL-SHOPPING</title>
+
+      <style>
+      .effect-totop {
+        transform: translateY(0);
+        transition: 0.3s all ease;
+      }
+      .effect-totop:hover {
+        transform: translateY(-10px);
+        transition: 0.3s all ease;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <i class="bi bi-shop"></i> QAL-SHOPING</a>
+
+        <div class="mx-auto order-1 order-lg-2" style="width: 50%">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="cari product..." />
+            <button type="button" class="btn btn-light">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="order-2">
+          <button class="btn btn-light position-relative">
+            <i class="bi bi-cart3"></i>
+            <span class="position-absolute top-0 start-100 translate-middle rounded-pill text-dark badge bg-warning">0</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container py-4">
+      <h2 class="mb-4">Daftar product</h2>
+      <div class="btn-group mb-4">
+        <button type="button" class="btn btn-outline-primary active">semua</button>
+        <button type="button" class="btn btn-outline-primary">daging ayam</button>
+        <button type="button" class="btn btn-outline-primary">daging sapi</button>
+        <button type="button" class="btn btn-outline-primary">daging kambing</button>
+        <button type="button" class="btn btn-outline-primary">daging</button>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4 col-lg-4 effect-totop">
+          <div class="cart h -100 shadow-sm">
+            <img src="/daging steak 3.webp" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h6 class="cartd-title text-truncate">daging 1 (Steak 130.000)</h6>
+              <p class="card-text fw-bold text-danger fs-5">rp.130.000</p>
+              <span class="badge bg-secondary">daging</span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-lg-4 effect-totop">
+          <div class="cart h -100 shadow-sm">
+            <img src="/Steak Sapi Simple 1.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h6 class="cartd-title text-truncate">daging 2 (Steak)</h6>
+              <p class="card-text fw-bold text-danger fs-5">rp 130.000</p>
+              <span class="badge bg-secondary">daging</span>
+            </div>
+          </div>
+        </div>
+
+<div class="col-md-4 col-lg-4 effect-totop">
+          <div class="cart h -100 shadow-sm">
+            <img src="/daging slice.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h6 class="cartd-title text-truncate">daging 3 (slice)</h6>
+              <p class="card-text fw-bold text-danger fs-5">rp 115.000</p>
+              <span class="badge bg-secondary">daging</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="row g-0">
+          <div class="col-md-4 py-4">
+            <img src="/project/img/daging1.jpeg" alt="" class="img-fluid detail-image rounded" />
+          </div>
+          <div class="col-md-7">
+            
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
